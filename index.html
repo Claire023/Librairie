@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    
+    <script src="https://kit.fontawesome.com/10e22f7dce.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+
+            <div id="form-add-book">
+                <form action="#" method="GET" id="formBook">
+                    <h3>Rechercher un livre</h3>
+                        <div class="box">
+                            <div>
+                                        <input type="text" placeholder="titre livre" name="title">
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="auteur" name="author">
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="année de publication" name="year">
+                                    </div>
+                            <div>
+                                <label for="available">Disponibilité : 
+                                        <select placeholder="disponibilité" name="available" id="available">
+                                            <option value="oui" id="yes" name="yes">oui</option>
+                                            <option value="non" id="no" name="no">non</option>
+                                        </select> 
+                                </label>
+                            </div>
+                        <div>
+                            <textarea name="description" id="description" cols="30" rows="10" placeholder="description"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="name" name="submit">Envoyer</button>
+                            <button class="reset" type="reset" id="reset">Reset</button>
+                        </div>
+                    </div>
+                </form>     
+            </div>
+
+
+
+                    <article id="rep">
+                        <h1>MES LIVRES</h1>
+                    </article>
+   
+
+        <script src="index.js"></script>
+    </body>
+</html>

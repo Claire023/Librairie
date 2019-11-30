@@ -1,0 +1,40 @@
+{
+    "books" : [
+        {
+            "title" : "Il était une fois",
+            "author" : "Stéphanie de Monaco" ,
+            "price" :25,
+            "available" : true
+
+        }, 
+
+        {
+            "title" : "Secrets de Programmations",
+            "author" : "Brian" ,
+            "price" :6.25,
+            "available" : false
+
+        }, 
+        
+        {
+            "title" : "Bucket Show",
+            "author" : "Julien" ,
+            "price" :25,
+            "available" : false
+
+        }, 
+        
+        {
+            "title" : "Avengers",
+            "author" : "Michel" ,
+            "price" :10.90,
+            "available" : true
+
+        }    
+
+    ]
+
+}
+
+
+    
